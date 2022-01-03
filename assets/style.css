@@ -4,39 +4,6 @@
     box-sizing: border-box;
 }
 
-.justify-content-around{
-    justify-content: space-around;
-}
-
-.row-reverse{
-    flex-direction: row-reverse;
-}
-
-.flex{
-    display: flex;
-}
-
-/* PARAGRAPHE */
-.text{
-    width: 30%;
-    flex-direction: column;
-}
-
-.souligne{
-    background-color: #dcd9cf;
-    width: 200px;
-    height: 10px;
-
-}
-
-.paddingTopText{
-    padding-top: 100px;
-}
-
-.star{
-    color: #dcd9cf;
-    font-size: 2.0rem;
-}
 /* CSS du corps ******************************************************************/
 .pad10 {
     padding: 0 10%;
@@ -120,3 +87,44 @@ header {
 .w30 {
     width: 50%;
 }
+
+/* PARAGRAPHE */
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.calculator{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.calculator img{
+    height: 300px;
+    padding: 0 50px;
+}
+
+.text{
+    width: 40%;
+    margin-top: 200px;
+    font-size: 0.8rem;
+}
+
+.text h2{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.text h3{
+    font-size: 1.0rem;
+}
+
+.text p{
+    padding: 5px 0;
+}
+
+.star{
+    color: #dcd9cf;
+    font-size: 2.0rem;
+}   
