@@ -65,6 +65,10 @@ header {
 
 /* CSS de la section 1 ************************************************************/
 
+.sect1 {
+    padding-bottom: 50px;
+}
+
 .contain {
     display: flex;
     justify-content: space-between;
@@ -88,6 +92,67 @@ header {
     width: 50%;
 }
 
+.droite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#ref {
+    position: relative;
+}
+
+#flottant {
+    position: absolute;
+    bottom: -150px;
+    right: 25%;
+}
+
+/* CSS de la section 2 ********************************** */
+.sect2 {
+    margin: 50px 0 270px;
+    position: relative;
+}
+.w50 {
+    display: flex;
+    justify-content: space-between;
+}
+.w40 {
+    width: 70%;
+    height: 60vh;
+    display: flex;
+    background-color: grey;
+    padding: 100px 10%;
+}
+.w40 p {
+    margin: 15px;
+}
+
+.fleche {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.carte {
+    width: 15%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.w50-bas {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    bottom: -250px;
+}
+
+/* ***************************************************** */
 .justify-content-around{
     justify-content: space-around;
 }
