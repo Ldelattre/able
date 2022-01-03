@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.justify-content-around{
+    justify-content: space-around;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.flex{
+    display: flex;
+}
+
+/* PARAGRAPHE */
+.text{
+    width: 30%;
+    flex-direction: column;
+}
+
+.souligne{
+    background-color: #dcd9cf;
+    width: 200px;
+    height: 10px;
+
+}
+
+.paddingTopText{
+    padding-top: 100px;
+}
+
+.star{
+    color: #dcd9cf;
+    font-size: 2.0rem;
+}
