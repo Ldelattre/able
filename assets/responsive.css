@@ -10,11 +10,6 @@
         align-content: center;
     }
 
-    .calculator img{
-        padding: 0;
-    }
-
-
     .text{
         width: 100%;
         margin-top: 15px;
@@ -23,5 +18,7 @@
 
 
 @media screen and (max-width:768px){
-    
+    .calculator img{
+        padding: 0;
+    }
 }
