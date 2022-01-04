@@ -117,16 +117,17 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-#ref {
     position: relative;
 }
 
 #flottant {
     position: absolute;
-    bottom: -150px;
-    right: 25%;
+    bottom: -50px;
+    left: -75px;
+}
+
+#flottant img {
+    width: 100%;
 }
 
 /* CSS de la section 2 ********************************** */
