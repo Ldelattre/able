@@ -69,6 +69,13 @@ header {
     list-style-type: none;
 }
 
+#lien-menu label{
+	display: none;
+}
+
+#lien-menu input{
+	display: none;
+}
 
 #login {
     color: #fff;
