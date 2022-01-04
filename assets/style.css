@@ -33,6 +33,11 @@ h1 {
 h2 {
     font-size: 1.2rem;
 }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* CSS du header *****************************************************************/
 header {
     height: 60px;
