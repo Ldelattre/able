@@ -105,8 +105,21 @@ header {
     padding: 0 50px;
 }
 
+.calculator h2{
+    position: relative;
+}
+
+.calculator h2::before{
+    content:'';
+    position: absolute;
+    border-bottom: #dcd9cf 8px solid;
+    width: 40px;
+    margin: 16px 20px 0 0;
+    z-index: -1;
+}
+
 .text{
-    width: 40%;
+    width: 25%;
     margin-top: 200px;
     font-size: 0.8rem;
 }
