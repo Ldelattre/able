@@ -50,4 +50,21 @@
         justify-content: space-around;
     }
 
+
+    /* section 2 **************************** */
+
+    .w40 {
+        width: 100%;
+        display: block;
+    }
+
+    .fleche {
+        display: none;
+    }
+
+    .w50-bas {
+        display:none;
+        width: 100%;
+    }
+    
 }
